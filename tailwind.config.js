@@ -3,12 +3,16 @@ import animate from "tailwindcss-animate";
 import { setupInspiraUI } from "@inspira-ui/plugins";
 
 export default {
-  darkMode: "selector",
+  darkMode: "class",
   safelist: ["dark"],
   prefix: "",
   content: [],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Raleway', 'sans-serif'],
+        primary: ['Geist', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -16,8 +20,9 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          light: '#63b3ed', // Light shade
+          DEFAULT: '#8642e1', // Base primary color
+          dark: '#020a12', // Dark shade
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

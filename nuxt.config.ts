@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   // devtools: { enabled: true },
+  head: {
+    title: 'UiSpace', // Set your tab name here
+  },
+  css: ['~/assets/css/tailwind.css','~/assets/css/custom.css'],
   modules: [
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',

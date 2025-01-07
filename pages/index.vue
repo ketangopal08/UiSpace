@@ -46,7 +46,7 @@
                 <path d="M5.75 8C8 8 8 5.75 8 5.75C8 5.75 8 8 10.25 8C8 8 8 10.25 8 10.25C8 10.25 8 8 5.75 8Z" fill="currentColor"/>
                 <path d="M7.75 16.25H7.76M18.25 5.75H18.26M18.25 18.25H18.26M14 7.75C14 7.75 14 13 9.75 13C14 13 14 18.25 14 18.25C14 18.25 14 13 18.25 13C14 13 14 7.75 14 7.75ZM8 5.75C8 5.75 8 8 5.75 8C8 8 8 10.25 8 10.25C8 10.25 8 8 10.25 8C8 8 8 5.75 8 5.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <span>Getting started</span>
+              <span>Get Started for Free</span>
             </button>
             <!-- <button class="mt-6 flex items-center space-x-2 hover:bg-purple-500/20 text-purple-400 px-4 py-2 rounded-lg transition-colors">
              
@@ -62,103 +62,72 @@
 
 
   <div class="dark:bg-primary-dark dark:text-gray-100 min-h-screen flex flex-col items-center px-6 py-10">
-    <header class="text-center mb-16">
-      <h1 class="text-4xl font-bold">
-        More enjoyable <span class="text-purple-500">with your team</span>
-      </h1>
-      <p class="mt-4 text-gray-400">
-        Seamless integration and features to enhance team collaboration.
-      </p>
-    </header>
+
+    <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+    <h2 class="text-center text-base/7 font-semibold text-primary">Build Better</h2>
+    <p class="mx-auto mt-2  text-balance text-center text-4xl dark:text-gray-100 font-semibold tracking-tight text-gray-950 sm:text-5xl">Faster with UiSpace Features</p>
+    <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+      <div class="relative lg:row-span-2">
+        <div class="absolute inset-px rounded-lg bg-white dark:bg-secondary-dark lg:rounded-l-[2rem]"></div>
+        <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+          <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center dark:text-gray-100">Mobile friendly</p>
+            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center dark:text-gray-100">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
+          </div>
+          <div class="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
+            <div class="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
+              <img class="size-full object-cover object-top" src="https://tailwindui.com/plus/img/component-images/bento-03-mobile-friendly.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-l-[2rem]"></div>
+      </div>
+      <div class="relative max-lg:row-start-1">
+        <div class="absolute inset-px rounded-lg bg-white dark:bg-secondary-dark max-lg:rounded-t-[2rem]"></div>
+        <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+          <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Performance</p>
+            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.</p>
+          </div>
+          <div class="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
+            <img class="w-full max-lg:max-w-xs" src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png" alt="">
+          </div>
+        </div>
+        <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
+      </div>
+      <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+        <div class="absolute inset-px rounded-lg bg-white dark:bg-secondary-dark"></div>
+        <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
+          <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+            <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Security</p>
+            <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.</p>
+          </div>
+          <div class="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
+            <img class="h-[min(152px,40cqw)] object-cover" src="https://tailwindui.com/plus/img/component-images/bento-03-security.png" alt="">
+          </div>
+        </div>
+        <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>
+      </div>
+      <div class="relative lg:row-span-2">
+        <div class="absolute inset-px rounded-lg bg-white dark:bg-secondary-dark max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
+        <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
 
 
-
-    <!-- Grid Layout -->
-    <div class="relative w-full max-w-6xl h-[700px] grid place-items-center">
-      <!-- Central Icon -->
-      <div class="absolute " style="width: 100%; height: 1000px;top: 20px;">
-       
-    <div
-    class="relative flex h-[750px] w-full flex-col items-center justify-center overflow-hidden rounded-lg lg:w-full md:w-full"
-  >
-    <p
-      class="z-10 whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black dark:text-white"
-    >
-      Ripple
-    </p>
-    <Ripple
-      circle-class="border-[hsl(var(--primary))] bg-[#0000]/25 dark:bg-[#fff]/25 rounded-full"
-    />
+          <showCase>  </showCase>
+          
+        </div>
+        <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
+      </div>
+    </div>
   </div>
-      </div>
 
-      <!-- Top Left -->
-      <div class="absolute top-10 left-10 flex flex-col items-center gap-2">
-        <div class="bg-purple-500 p-4 rounded-full shadow-lg">
-          <i class="fas fa-layer-group text-xl"></i>
-        </div>
-        <h3 class="text-lg font-semibold text-center">All inside one app</h3>
-        <p class="text-gray-400 text-sm text-center">
-          Seamless connection with Loom, Google Meet, and Zoom in one app.
-        </p>
-      </div>
-
-      <!-- Bottom Left -->
-      <div class="absolute bottom-10 left-10 flex flex-col items-center gap-2">
-        <div class="bg-purple-500 p-4 rounded-full shadow-lg">
-          <i class="fas fa-gamepad text-xl"></i>
-        </div>
-        <h3 class="text-lg font-semibold text-center">Gamification</h3>
-        <p class="text-gray-400 text-sm text-center">
-          Make tasks fun with points, achievements, and leveling up.
-        </p>
-      </div>
-
-      <!-- Top Right -->
-      <div class="absolute top-10 right-10 flex flex-col items-center gap-2">
-        <div class="bg-purple-500 p-4 rounded-full shadow-lg">
-          <i class="fas fa-tasks text-xl"></i>
-        </div>
-        <h3 class="text-lg font-semibold text-center">Project Tracker</h3>
-        <p class="text-gray-400 text-sm text-center">
-          Stay organized with an intuitive tracking feature.
-        </p>
-      </div>
-
-      <!-- Bottom Right -->
-      <div class="absolute bottom-10 right-10 flex flex-col items-center gap-2">
-        <div class="bg-purple-500 p-4 rounded-full shadow-lg">
-          <i class="fas fa-th text-xl"></i>
-        </div>
-        <h3 class="text-lg font-semibold text-center">Widgets</h3>
-        <p class="text-gray-400 text-sm text-center">
-          Customize your app with user-friendly widgets for easy access.
-        </p>
-      </div>
-    </div>
-
-    <!-- Statistics Section -->
-    <div class="mt-16 flex gap-16 text-center">
-      <div>
-        <h3 class="text-3xl font-bold">40.89k</h3>
-        <p class="text-gray-400">Teams</p>
-      </div>
-      <div>
-        <h3 class="text-3xl font-bold">21.47k</h3>
-        <p class="text-gray-400">Start-up</p>
-      </div>
-      <div>
-        <h3 class="text-3xl font-bold">19.71k</h3>
-        <p class="text-gray-400">Company</p>
-      </div>
-    </div>
   </div>
   </div>
 </template>
 
 <script setup>
 import RadiantText from '~/components/landingUi/RadiantText.vue'
-import Ripple from '~/components/landingUi/Ripple.vue';
+import showCase from '~/components/siteLanding/showCase.vue'
 </script>
 
 <style>

@@ -22,12 +22,16 @@ export default {
         primary: {
           light: '#63b3ed', // Light shade
           DEFAULT: '#8642e1', // Base primary color
-          dark: '#020a12', // Dark shade
+          dark: '#02080e', // Dark shade
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
           dark: '#0a0f18', // Dark shade
+        },
+        text:{
+          primary: "hsl(var(--text-primary))",
+          secondary: "#8a87a1",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

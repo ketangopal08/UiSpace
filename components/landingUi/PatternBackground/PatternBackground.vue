@@ -1,5 +1,6 @@
 <template>
     <div
+    class="pattern-background-border"
       :class="
         cn(
           patternBackgroundVariants({ variant, size }),
@@ -9,6 +10,7 @@
       "
     >
       <div
+      class="pattern-background-color"
         :class="
           cn(
             'absolute pointer-events-none inset-0 flex items-center justify-center',

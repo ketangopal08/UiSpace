@@ -55,6 +55,7 @@ export const patternBackgroundVariants = cva("relative text-clip", {
       sm: "bg-[size:16px_16px]",
       md: "bg-[size:24px_24px]",
       lg: "bg-[size:32px_32px]",
+      section: "bg-[size:60px_60px]",
     },
   },
   defaultVariants: {

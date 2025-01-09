@@ -16,7 +16,7 @@
     <div class="bx-1 bg-gray-800 rounded-full absolute">
         <BorderBeam
         :size="200"
-        :duration="12"
+        :duration="4"
         :delay="0"
         :border-width="2"
       />
@@ -25,7 +25,7 @@
     <div class="bx-2 w-48 h-48 bg-gray-700 rounded-full absolute">
         <BorderBeam
         :size="200"
-        :duration="13"
+        :duration="6"
         :delay="0"
         :border-width="2"
       />
@@ -34,7 +34,7 @@
     <div class="bx-3 w-32 h-32 bg-gray-600 rounded-full absolute">
         <BorderBeam
         :size="300"
-        :duration="11"
+        :duration="8"
         :delay="0"
         :border-width="2"
       />

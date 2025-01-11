@@ -25,13 +25,16 @@ export default {
           dark: '#02080e', // Dark shade
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "#cb42e1",
           foreground: "hsl(var(--secondary-foreground))",
-          dark: '#0a0f18', // Dark shade
+          dark: '#0c0f14', // Dark shade
         },
         text:{
           primary: "hsl(var(--text-primary))",
           secondary: "#8a87a1",
+        },
+        border: {
+          dark: "#191521",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

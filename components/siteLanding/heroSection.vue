@@ -12,8 +12,10 @@
       <a href="#" class="dark:text-white font-medium text-sm">About</a>
     </div>
 
+    
     <!-- Right Menu -->
     <div class="flex items-center space-x-4">
+      <a href="#" class=" rounded py-1.5 px-3 text-sm font-normal text-white shadow-sm flex"><div class="flex-initial"> <Github style="transform: translateY(2px);" class="w-4 h-4 mr-1" /></div> Contribute on GitHub</a>
       <a href="#" class="rounded-md bg-primary py-1.5 px-3 text-sm font-semibold text-white shadow-sm ">Get started</a>
     </div>
   </div>
@@ -33,7 +35,7 @@
       </div>
       <div class="text-center" >
         <h1 class="text-balance text-5xl font-primary font-semibold tracking-tight dark:text-gray-100 text-gray-900 sm:text-7xl">A Universe of Custom <br>UI Components</h1>
-        <p class="mt-8 text-pretty text-lg font-light text-gray-500 dark:text-text-secondary sm:text-xl/8">
+        <p class="mt-8 text-pretty text-lg font-light text-gray-500 dark:text-text-secondary sm:text-xl/1">
           UISpace offers reusable, high-quality UI components built with Vue, Nuxt, and Tailwind CSS.<br> It enables developers to build modern, scalable, and stunning interfaces effortlessly.</p>
         <div class="mt-10 flex items-center justify-center gap-x-6" v-motion
                 :initial="{
@@ -75,5 +77,6 @@
 
 <script setup>
 import TextGenerateEffect from '../landingUi/TextGenerateEffect.vue';
+import { Github } from 'lucide-vue-next';
 
 </script>

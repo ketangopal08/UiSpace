@@ -3,14 +3,18 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   // devtools: { enabled: true },
   head: {
-    title: 'UiSpace', // Set your tab name here
+    title: 'UiSpace', // Default tab name
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    ],
   },
   css: ['~/assets/css/tailwind.css','~/assets/css/custom.css'],
   modules: [
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     '@nuxtjs/color-mode',
-    '@vueuse/motion/nuxt'
+    '@vueuse/motion/nuxt',
   ],
   shadcn: {
     /**

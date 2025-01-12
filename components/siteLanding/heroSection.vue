@@ -7,16 +7,17 @@
       <img class="ml-4" src="/assets/images/logo-1.png" style="height: 24px;" alt="" srcset="">
       <!-- <span class="dark:text-white font-bold text-sm" style="margin-left: 6px;margin-right: 20px;">UiSpace</span> -->
       
-      <a href="#" class="dark:text-white font-medium text-sm">Components</a>
-      <a href="#" class="dark:text-white font-medium text-sm">Docs</a>
-      <a href="#" class="dark:text-white font-medium text-sm">About</a>
+      <a href="#" class="dark:text-white font-normal text-sm">Components</a>
+      <a href="#" class="dark:text-white font-normal text-sm">Docs</a>
+      <a href="#" class="dark:text-white font-normal text-sm">About</a>
     </div>
 
     
     <!-- Right Menu -->
     <div class="flex items-center space-x-4">
       <a href="#" class=" rounded py-1.5 px-3 text-sm font-normal text-white shadow-sm flex"><div class="flex-initial"> <Github style="transform: translateY(2px);" class="w-4 h-4 mr-1" /></div> Contribute on GitHub</a>
-      <a href="#" class="rounded-md bg-primary py-1.5 px-3 text-sm font-semibold text-white shadow-sm ">Get started</a>
+      <a href="#" class="rounded-md bg-primary py-1.5 px-3 text-sm font-semibold text-white shadow-sm ">
+        <NuxtLink to="/app">Get started</NuxtLink></a>
     </div>
   </div>
 </div>

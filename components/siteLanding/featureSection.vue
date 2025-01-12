@@ -19,47 +19,53 @@
                 </div>
                 <div class="col-span-4 row-span-5 col-start-4">
                     <div style="position: relative;">
-                        <div style="position: absolute;left:150px" v-motion :initial="{
-                            y: 100,
-                            opacity: 0,
-                        }" :visible="{
-    y: 0,
+                        <div style="position: absolute;left:150px"   v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
     opacity: 1,
+    y: 0,
     transition: {
-        duration: 300,
-        type: 'keyframes',
-        ease: 'easeIn',
+      type: 'spring',
+      stiffness: '100',
+      delay: 100,
     },
-}">
+  }">
                             <img src="/assets/images/sec-2-3.png" alt="" style="border-radius: 40px;height: 250px;">
                         </div>
-                        <div v-motion :initial="{
-                            y: 100,
-                            opacity: 0,
-                        }" :visible="{
-    y: 0,
+                        <div  v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
     opacity: 1,
+    y: 0,
     transition: {
-        duration: 300,
-        type: 'keyframes',
-        ease: 'easeIn',
+      type: 'spring',
+      stiffness: '100',
+      delay: 100,
     },
-}" style="position: absolute;left:100px;top:350px">
+  }" style="position: absolute;left:100px;top:350px">
                             <img src="/assets/images/sec-2-5.jpg" alt=""
                                 style="border-radius: 20px;height: 290px;border: 3px solid #ccc;">
                         </div>
-                        <div v-motion :initial="{
-                            y: 100,
-                            opacity: 0,
-                        }" :visible="{
-    y: 0,
+                        <div  v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
     opacity: 1,
+    y: 0,
     transition: {
-        duration: 300,
-        type: 'keyframes',
-        ease: 'easeIn',
+      type: 'spring',
+      stiffness: '100',
+      delay: 100,
     },
-}" style="position: absolute;left:500px;top:0px;border-radius: 20px;">
+  }" style="position: absolute;left:500px;top:0px;border-radius: 20px;">
                             <BorderBeam :size="100" :duration="6" :delay="0" :border-width="2" />
                             <img src="/assets/images/sec-2-6.jpg" alt=""
                                 style="border-radius: 20px;height: 290px;border: 3px solid #333;">
@@ -67,18 +73,20 @@
                         <!-- <div style="position: absolute;left:400px;top:380px">
 <img src="/assets/images/sec-2-9.jpg" alt="" style="border-radius: 10px;width: 250px;border: 1px solid #333;">
 </div> -->
-                        <div v-motion :initial="{
-                            y: 100,
-                            opacity: 0,
-                        }" :visible="{
-    y: 0,
+                        <div  v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
     opacity: 1,
+    y: 0,
     transition: {
-        duration: 300,
-        type: 'keyframes',
-        ease: 'easeIn',
+      type: 'spring',
+      stiffness: '100',
+      delay: 100,
     },
-}" style="position: absolute;left:420px;top:370px">
+  }" style="position: absolute;left:420px;top:370px">
                             <img src="/assets/images/sec-2-10.png" alt=""
                                 style="border-radius: 20px;width: 270px;border: 3px solid #333;">
                         </div>
@@ -86,52 +94,58 @@
                 </div>
                 <div class="col-span-3 row-span-3 row-start-3">
                     <div style="width: 100%;position: relative;">
-                        <div v-motion :initial="{
-                            y: 100,
-                            opacity: 0,
-                        }" :visible="{
-    y: 0,
+                        <div  v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
     opacity: 1,
+    y: 0,
     transition: {
-        duration: 300,
-        type: 'keyframes',
-        ease: 'easeIn',
+      type: 'spring',
+      stiffness: '100',
+      delay: 100,
     },
-}" style="position: absolute;top: 25px;border-radius: 60px;">
+  }" style="position: absolute;top: 25px;border-radius: 60px;">
                             <BorderBeam :size="100" :duration="10" :delay="0" :border-width="3" />
                             <img src="/assets/images/sec-2-1.png" alt=""
                                 style="border-radius: 60px;height: 300px;border: 3px solid #444;">
                         </div>
-                        <div v-motion :initial="{
-                            y: 100,
-                            opacity: 0,
-                        }" :visible="{
-    y: 0,
+                        <div  v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
     opacity: 1,
+    y: 0,
     transition: {
-        duration: 300,
-        type: 'keyframes',
-        ease: 'easeIn',
+      type: 'spring',
+      stiffness: '100',
+      delay: 100,
     },
-}" style="position: absolute;
+  }" style="position: absolute;
    top: -6px;
 right: -50px;">
 
                             <img src="/assets/images/sec-2-2.png" alt=""
                                 style="border-radius: 30px;height: 130px;border: 2px solid #3f3f3f;">
                         </div>
-                        <div v-motion :initial="{
-                            y: 100,
-                            opacity: 0,
-                                    }" :visible="{
-                y: 0,
-                opacity: 1,
-                transition: {
-                    duration: 300,
-                    type: 'keyframes',
-                    ease: 'easeIn',
-                },
-            }" style="position: absolute;
+                        <div  v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: 'spring',
+      stiffness: '100',
+      delay: 100,
+    },
+  }" style="position: absolute;
 right: 20px;
 top: 179px;">
 

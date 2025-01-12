@@ -91,6 +91,30 @@
 
   </div>
 
+  <div>
+  <div class="mx-auto">
+    <div class="relative isolate overflow-hidden bg-primary-dark px-6 pt-16 shadow-2xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
+        <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+        <defs>
+          <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+            <stop stop-color="#7775D6" />
+            <stop offset="1" stop-color="#E935C1" />
+          </radialGradient>
+        </defs>
+      </svg>
+      <div class="mx-auto lg:py-20 lg:text-center">
+        <h2 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">Get Started with UiSpace Today.</h2>
+        <p class="mt-4 text-pretty text-lg/8 text-gray-300">Join thousands of developers building better interfaces with UiSpace’s open-source components.</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6  text-center">
+          <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Browse Components Now</a>
+          <a href="#" class=" rounded py-1.5 text-sm font-normal text-white shadow-sm flex">Contribute on GitHub <div class="flex-initial"> <Github style="transform: translateY(2px);" class="w-4 h-4 ml-2" /></div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   <footer class="bg-black text-gray-400">
   <div class="container mx-auto px-6 py-12 max-w-6xl">
     <!-- Top Section -->
@@ -147,7 +171,7 @@
 
     <!-- Bottom Section -->
     <div class="flex  flex-col md:flex-row justify-between items-center text-sm text-gray-500 mt-5">
-      <p>Brought to you by Ketan Gopal</p>
+      <p>© 2025 UiSpace. Proudly Open Source.</p>
     
       <div class="flex space-x-4 mt-4 md:mt-0">
         <a href="#" class="hover:text-white"><i class="fab fa-linkedin"></i></a>
@@ -175,6 +199,7 @@ import {
   PATTERN_BACKGROUND_VARIANT,
 } from "~/components/landingUi/PatternBackground/";
 import BorderBeam from '~/components/landingUi/BorderBeam.vue'
+import { Github } from 'lucide-vue-next';
 </script>
 
 

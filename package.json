@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/color-mode": "^3.5.2",
-    "@vueuse/core": "^12.3.0",
+    "@vueuse/core": "^12.4.0",
     "@vueuse/motion": "^2.2.6",
     "lucide-vue-next": "^0.469.0",
     "nuxt": "^3.15.0",

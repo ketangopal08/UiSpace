@@ -14,7 +14,7 @@ export default {
         primary: ['Geist', 'sans-serif'],
       },
       colors: {
-        border: "hsl(var(--border))",
+        border: "#1c2129",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",

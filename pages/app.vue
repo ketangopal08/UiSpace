@@ -101,17 +101,17 @@ const data = {
   ],
   navMain: [
     {
-      title: 'Playground',
+      title: 'Getting started',
       url: '#',
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
-          title: 'History',
+          title: 'Installation',
           url: '#',
         },
         {
-          title: 'Starred',
+          title: 'Project strcuture',
           url: '#',
         },
         {
@@ -213,7 +213,7 @@ function setActiveTeam(team: typeof data.teams[number]) {
 </script>
 
 <template>
-  <SidebarProvider class="bg-background dark:bg-dark-background dark:text-white">
+  <SidebarProvider class="dark:bg-secondary-dark  dark:text-white">
     <Sidebar collapsible="icon">
       <SidebarHeader>
         <SidebarMenu>
@@ -423,7 +423,7 @@ function setActiveTeam(team: typeof data.teams[number]) {
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
-    <SidebarInset>
+    <SidebarInset class="dark:bg-primary-dark">
       <header class="flex h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12">
         <div class="flex items-center gap-2 px-4">
           <SidebarTrigger class="-ml-1" />

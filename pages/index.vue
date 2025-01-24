@@ -200,6 +200,10 @@ import {
 } from "~/components/landingUi/PatternBackground/";
 import BorderBeam from '~/components/landingUi/BorderBeam.vue'
 import { Github } from 'lucide-vue-next';
+
+useHead({
+  title: 'UiSpace | Universe of Custom UI Components'
+})
 </script>
 
 

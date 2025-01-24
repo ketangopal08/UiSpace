@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>cool</h1>
+    <h1>new from CICD</h1>
   </div>
 </template>
 

@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false, // Disable Server-Side Rendering (optional, use SSG if needed)
+  target: 'static', // Enable static site generation
   compatibilityDate: '2024-11-01',
   // devtools: { enabled: true },
   head: {

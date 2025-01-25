@@ -202,8 +202,25 @@ import BorderBeam from '~/components/landingUi/BorderBeam.vue'
 import { Github } from 'lucide-vue-next';
 
 useHead({
-  title: 'UiSpace - Custom UI Components',
-  
+  title: 'UiSpace - Custom, Reusable UI Components for Developers',
+  meta: [
+    { name: 'description', content: 'UiSpace provides developers with custom, reusable UI components built with Vue, Nuxt, and Tailwind CSS to speed up development and enhance design consistency.' },
+    { name: 'keywords', content: 'UI components, Vue components, Nuxt components, TailwindCSS UI, reusable UI, developer tools, frontend design' },
+    { name: 'author', content: 'UiSpace Team' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:title', content: 'UiSpace - Custom, Reusable UI Components for Developers' },
+    { property: 'og:description', content: 'Discover UiSpace, the ultimate library of reusable UI components built with Vue, Nuxt, and Tailwind CSS. Simplify your development process with beautiful, ready-to-use designs.' },
+    { property: 'og:url', content: 'https://uispace.dev' },
+    { property: 'og:image', content: 'https://uispace.dev/preview-image.jpg' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'UiSpace - Custom, Reusable UI Components for Developers' },
+    { name: 'twitter:description', content: 'Speed up your development with UiSpace\'s custom UI components for Vue, Nuxt, and Tailwind CSS.' },
+    { name: 'twitter:image', content: 'https://uispace.dev/twitter-preview.jpg' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://uispace.dev' },
+    { rel: 'icon', href: '/favicon.ico' }
+  ]
 })
 </script>
 

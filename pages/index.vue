@@ -202,7 +202,19 @@ import BorderBeam from '~/components/landingUi/BorderBeam.vue'
 import { Github } from 'lucide-vue-next';
 
 useHead({
-  title: 'UiSpace | Universe of Custom UI Components'
+  title: 'UiSpace - Custom UI Components',
+  meta: [
+    { name: 'description', content: 'UiSpace offers a wide range of reusable UI components for developers. Build faster and better with our designs.' },
+    { name: 'keywords', content: 'UI components, Vue, Nuxt, TailwindCSS, reusable components' },
+    { property: 'og:title', content: 'UiSpace - Custom UI Components' },
+    { property: 'og:description', content: 'Explore customizable UI components to speed up your development process.' },
+    { property: 'og:image', content: '/assets/images/logo-1.png' },
+    { property: 'og:url', content: 'https://uispace.web.app' },
+    { name: 'twitter:card', content: 'summary_large_image' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://uispace.web.app' }
+  ]
 })
 </script>
 

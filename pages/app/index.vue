@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Cool success for pull</h1>
+    <h1>Ui-Space</h1>
   </div>
 </template>
 

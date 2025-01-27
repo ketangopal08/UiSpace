@@ -21,7 +21,7 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: {
           light: '#63b3ed', // Light shade
-          DEFAULT: '#8642e1', // Base primary color
+          DEFAULT: '#8F75FE', // Base primary color
           dark: '#02080e', // Dark shade
         },
         secondary: {
@@ -30,7 +30,7 @@ export default {
           dark: '#0c0f14', // Dark shade
         },
         text:{
-          primary: "hsl(var(--text-primary))",
+          primary: "#8F75FE",
           secondary: "#8a87a1",
         },
         border: {

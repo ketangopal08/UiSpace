@@ -88,121 +88,83 @@ const data = {
       logo: GalleryVerticalEnd,
       plan: '1.0.0',
     },
-    {
-      name: 'Acme Corp.',
-      logo: AudioWaveform,
-      plan: 'Startup',
-    },
-    {
-      name: 'Evil Corp.',
-      logo: Command,
-      plan: 'Free',
-    },
+   
   ],
-  navMain: [
-    {
-      title: 'Getting started',
-      url: '#',
-      icon: SquareTerminal,
-      isActive: true,
-      items: [
-        {
-          title: 'Installation',
-          url: '#',
-        },
-        {
-          title: 'Project strcuture',
-          url: '#',
-        },
-        {
-          title: 'Settings',
-          url: '#',
-        },
-      ],
-    },
-    {
-      title: 'Models',
-      url: '#',
-      icon: Bot,
-      items: [
-        {
-          title: 'Genesis',
-          url: '#',
-        },
-        {
-          title: 'Explorer',
-          url: '#',
-        },
-        {
-          title: 'Quantum',
-          url: '#',
-        },
-      ],
-    },
-    {
-      title: 'Documentation',
-      url: '#',
-      icon: BookOpen,
-      items: [
-        {
-          title: 'Introduction',
-          url: '#',
-        },
-        {
-          title: 'Get Started',
-          url: '#',
-        },
-        {
-          title: 'Tutorials',
-          url: '#',
-        },
-        {
-          title: 'Changelog',
-          url: '#',
-        },
-      ],
-    },
-    {
-      title: 'Settings',
-      url: '#',
-      icon: Settings2,
-      items: [
-        {
-          title: 'General',
-          url: '#',
-        },
-        {
-          title: 'Team',
-          url: '#',
-        },
-        {
-          title: 'Billing',
-          url: '#',
-        },
-        {
-          title: 'Limits',
-          url: '#',
-        },
-      ],
-    },
-  ],
-  projects: [
-    {
-      name: 'Design Engineering',
-      url: '#',
-      icon: Frame,
-    },
-    {
-      name: 'Sales & Marketing',
-      url: '#',
-      icon: PieChart,
-    },
-    {
-      name: 'Travel',
-      url: '#',
-      icon: Map,
-    },
-  ],
+  navMain : [
+  {
+    title: 'Getting started',
+    url: '#',
+    icon: SquareTerminal,
+    isActive: true,
+    items: [
+      { title: 'Installation', url: '#' },
+      { title: 'Project structure', url: '#' },
+      { title: 'Settings', url: '#' },
+    ],
+  },
+  {
+    title: 'Models',
+    url: '#',
+    icon: Bot,
+    items: [
+      { title: 'Genesis', url: '#' },
+      { title: 'Explorer', url: '#' },
+      { title: 'Quantum', url: '#' },
+    ],
+  },
+  {
+    title: 'Components',
+    url: '#',
+    icon: SquareTerminal, // Example icon, replace as needed
+    items: [
+      { title: 'Buttons', url: '#' },
+      { title: 'Forms', url: '#' },
+      { title: 'Cards', url: '#' },
+      { title: 'Modals', url: '#' },
+      { title: 'Tables', url: '#' },
+      { title: 'Toasts', url: '#' },
+    ],
+  },
+  {
+    title: 'Documentation',
+    url: '#',
+    icon: BookOpen,
+    items: [
+      { title: 'Introduction', url: '#' },
+      { title: 'Get Started', url: '#' },
+      { title: 'Tutorials', url: '#' },
+      { title: 'Changelog', url: '#' },
+    ],
+  },
+  {
+    title: 'Settings',
+    url: '#',
+    icon: Settings2,
+    items: [
+      { title: 'General', url: '#' },
+      { title: 'Team', url: '#' },
+      { title: 'Billing', url: '#' },
+      { title: 'Limits', url: '#' },
+    ],
+  },
+],
+  // projects: [
+  //   {
+  //     name: 'Design Engineering',
+  //     url: '#',
+  //     icon: Frame,
+  //   },
+  //   {
+  //     name: 'Sales & Marketing',
+  //     url: '#',
+  //     icon: PieChart,
+  //   },
+  //   {
+  //     name: 'Travel',
+  //     url: '#',
+  //     icon: Map,
+  //   },
+  // ],
 }
 
 const activeTeam = ref(data.teams[0])
@@ -214,7 +176,7 @@ function setActiveTeam(team: typeof data.teams[number]) {
 
 <template>
   <SidebarProvider class="dark:bg-secondary-dark  dark:text-white">
-    <Sidebar collapsible="icon">
+    <Sidebar collapsible="icon" class="side-bar">
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
@@ -256,14 +218,7 @@ function setActiveTeam(team: typeof data.teams[number]) {
                   <DropdownMenuShortcut>⌘{{ index + 1 }}</DropdownMenuShortcut>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem class="gap-2 p-2">
-                  <div class="flex size-6 items-center justify-center rounded-md border bg-background">
-                    <Plus class="size-4" />
-                  </div>
-                  <div class="font-medium text-muted-foreground">
-                    Add team
-                  </div>
-                </DropdownMenuItem>
+           
               </DropdownMenuContent>
             </DropdownMenu>
           </SidebarMenuItem>
@@ -306,7 +261,7 @@ function setActiveTeam(team: typeof data.teams[number]) {
             </Collapsible>
           </SidebarMenu>
         </SidebarGroup>
-        <SidebarGroup class="group-data-[collapsible=icon]:hidden">
+        <!-- <SidebarGroup class="group-data-[collapsible=icon]:hidden">
           <SidebarGroupLabel>Projects</SidebarGroupLabel>
           <SidebarMenu>
             <SidebarMenuItem
@@ -350,9 +305,9 @@ function setActiveTeam(team: typeof data.teams[number]) {
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>
-        </SidebarGroup>
+        </SidebarGroup> -->
       </SidebarContent>
-      <SidebarFooter>
+      <!-- <SidebarFooter>
         <SidebarMenu>
           <SidebarMenuItem>
             <DropdownMenu>
@@ -420,7 +375,7 @@ function setActiveTeam(team: typeof data.teams[number]) {
             </DropdownMenu>
           </SidebarMenuItem>
         </SidebarMenu>
-      </SidebarFooter>
+      </SidebarFooter> -->
       <SidebarRail />
     </Sidebar>
     <SidebarInset class="dark:bg-primary-dark">
@@ -449,3 +404,9 @@ function setActiveTeam(team: typeof data.teams[number]) {
     </SidebarInset>
   </SidebarProvider>
 </template>
+
+<style>
+.side-bar{
+  border: none;
+}
+</style>
